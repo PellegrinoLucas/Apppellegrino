@@ -5,9 +5,10 @@ const Nav=(parametro) => {
 if(parametro.isHeader) {
     
     return(
-        <nav>
+        <nav className="header__nav">
             <a className="header__link" href="">Catalogo</a>
-            <a className="header__link" href="">¿Quienes Somos?</a>
+            <a className="header__link" href="">Remeras</a>
+            <a className="header__link" href="">Zapatillas</a>
             <CartWidget/>
         </nav>
     )

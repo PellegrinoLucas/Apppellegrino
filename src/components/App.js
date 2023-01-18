@@ -7,7 +7,7 @@ function App() {
   return (
   <>
     <Header/>
-    <ItemListContainer greeting="Página en Proceso de Creación"/>
+    <ItemListContainer/>
     <Main/>
     <Footer/>
   </>
